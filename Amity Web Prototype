@@ -1,0 +1,97 @@
+-- MySQL Administrator dump 1.4
+--
+-- ------------------------------------------------------
+-- Server version	5.0.33-community-nt
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+
+
+--
+-- Create schema aump
+--
+
+CREATE DATABASE IF NOT EXISTS aump;
+USE aump;
+
+--
+-- Definition of table `stdreg`
+--
+
+DROP TABLE IF EXISTS `stdreg`;
+CREATE TABLE `stdreg` (
+  `name` varchar(45) NOT NULL,
+  `fname` varchar(45) NOT NULL,
+  `add` varchar(45) NOT NULL,
+  `gen` varchar(45) NOT NULL,
+  `state` varchar(45) NOT NULL,
+  `city` varchar(45) NOT NULL,
+  `dob` date NOT NULL,
+  `pcode` int(10) unsigned NOT NULL,
+  `course` varchar(45) NOT NULL,
+  `email` varchar(45) NOT NULL,
+  `pwd` varchar(45) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `stdreg`
+--
+
+/*!40000 ALTER TABLE `stdreg` DISABLE KEYS */;
+INSERT INTO `stdreg` (`name`,`fname`,`add`,`gen`,`state`,`city`,`dob`,`pcode`,`course`,`email`,`pwd`) VALUES 
+ ('suraj','neekhra','amity','on','in','gwa','2019-09-17',433434,'com1','shubham@123','q');
+/*!40000 ALTER TABLE `stdreg` ENABLE KEYS */;
+
+
+--
+-- Definition of table `stdreg1`
+--
+
+DROP TABLE IF EXISTS `stdreg1`;
+CREATE TABLE `stdreg1` (
+  `name` varchar(45) NOT NULL,
+  `fname` varchar(45) NOT NULL,
+  `add` varchar(45) NOT NULL,
+  `gen` varchar(45) NOT NULL,
+  `state` varchar(45) NOT NULL,
+  `city` varchar(45) NOT NULL,
+  `dob` date NOT NULL,
+  `pcode` int(10) unsigned NOT NULL,
+  `course` varchar(45) NOT NULL,
+  `email` varchar(45) NOT NULL,
+  `pwd` varchar(45) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `stdreg1`
+--
+
+/*!40000 ALTER TABLE `stdreg1` DISABLE KEYS */;
+INSERT INTO `stdreg1` (`name`,`fname`,`add`,`gen`,`state`,`city`,`dob`,`pcode`,`course`,`email`,`pwd`) VALUES 
+ ('Shubham Jain','Shubham','Amity School of ','on','in','gwa','2019-09-20',474009,'com1','shubhamj.2810@gmail.com','s'),
+ ('Shubham Jain','Shubham','Amity School of ','on','in','gwa','2019-09-20',474009,'com1','shubhamj.2810@gmail.com','s'),
+ ('Shubham Jain','Shubham','Amity School of ','on','in','gwa','2019-09-20',474009,'com1','shubhamj.2810@gmail.com','s'),
+ ('Shubham Jain','Shubham','Amity School of ','on','in','gwa','2019-09-20',474009,'com1','shubhamj.2810@gmail.com','s'),
+ ('Shubham Jain','Shubham','Amity School of ','on','in','gwa','2019-09-20',474009,'com1','shubhamj.2810@gmail.com','s'),
+ ('Shubham Jain','Shubham','Amity School of ','on','in','gwa','2019-09-20',474009,'com1','shubhamj.2810@gmail.com','s'),
+ ('Shubham Jain','Shubham','Amity School of ','on','in','gwa','2019-09-20',474009,'com1','shubhamj.2810@gmail.com','s'),
+ ('Shubham Jain','Shubham','Amity School of ','on','in','gwa','2019-09-20',474009,'com1','shubhamj.2810@gmail.com','ss');
+/*!40000 ALTER TABLE `stdreg1` ENABLE KEYS */;
+
+
+
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
